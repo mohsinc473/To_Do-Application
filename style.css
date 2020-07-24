@@ -1,0 +1,34 @@
+body {
+  background-image: url(/todo\list\background.jpg);
+}
+.label {
+  margin-left: 40%;
+  display: inline-block;
+  display: flex;
+}
+.Lis {
+  list-style-type: none;
+  font-size: large;
+  font-weight: bold;
+}
+@media only screen and (max-width: 290px) {
+  .container {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .form-control {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .btn {
+    margin: 20px 20px 10px 30px;
+  }
+}
+@media only screen and (max-width: 290px) {
+  svg {
+    width: 1em;
+    height: 1.5em;
+  }
+}
