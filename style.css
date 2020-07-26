@@ -1,5 +1,11 @@
 body {
-  background-image: url(/todo\list\background.jpg);
+  background-image: url(/todo_list_background.jpg);
+}
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 700;
 }
 .label {
   margin-left: 40%;
@@ -11,6 +17,7 @@ body {
   font-size: large;
   font-weight: bold;
 }
+
 @media only screen and (max-width: 290px) {
   .container {
     width: 100% !important;
@@ -30,5 +37,13 @@ body {
   svg {
     width: 1em;
     height: 1.5em;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .label {
+    margin: 10px auto 10px auto;
+  }
+  .Btn1 {
+    margin-bottom: 26px;
   }
 }

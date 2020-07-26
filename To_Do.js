@@ -44,11 +44,9 @@ function deleteAll() {
   ulid.innerHTML = " ";
 }
 
-function Label(l) {
-  // var labelTxt = l.;
+function Label() {
   var lab = document.getElementById("labelText");
-  lab = lab.innerHTML;
-  var changeLabel = prompt("Enter your label", lab);
+  lab.innerHTML;
+  var changeLabel = prompt("Enter your label", lab.innerHTML);
   lab.innerHTML = changeLabel;
-  // labelTxt.firstChild.nodeValue = changeLabel;
 }
