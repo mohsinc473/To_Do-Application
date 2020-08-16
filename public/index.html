@@ -11,6 +11,33 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDJOSPsCLQIGU9S5RMMNz-XYxEvudm6wGg",
+    authDomain: "to-do-application-bc7b2.firebaseapp.com",
+    databaseURL: "https://to-do-application-bc7b2.firebaseio.com",
+    projectId: "to-do-application-bc7b2",
+    storageBucket: "to-do-application-bc7b2.appspot.com",
+    messagingSenderId: "1060121786423",
+    appId: "1:1060121786423:web:f514d2523b78f3df80a7b2",
+    measurementId: "G-F6RCJG6HW7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
   </head>
   <body>
     <h3>To Do List</h3>
@@ -46,7 +73,7 @@
     <div class="container container-sm">
       <h5 class="label">
         Label :
-        <p class="font-weight-normal font-italic ml-2" id="labelText">Work</p>
+        <p class="font-weight-normal font-italic ml-2" id="labelText">Daily Activities</p>
         <button
           class="Btn1 btn-warning rounded-circle mb-5 ml-3"
           onclick="Label()"

@@ -18,28 +18,28 @@ h3 {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 290px) {
-  .container {
+@media only screen and (max-width: 576px) {
+  .container{
     width: 100% !important;
   }
 }
-@media only screen and (max-width: 290px) {
+@media only screen and (max-width: 576px) {
   .form-control {
     width: 100% !important;
   }
 }
-@media only screen and (max-width: 290px) {
+@media only screen and (max-width: 576px) {
   .btn {
-    margin: 20px 20px 10px 30px;
+    margin: 20px 20px 10px 30px;  
   }
 }
-@media only screen and (max-width: 290px) {
+@media only screen and (max-width: 576px) {
   svg {
     width: 1em;
     height: 1.5em;
   }
 }
-@media only screen and (max-width: 290px) {
+@media only screen and (max-width: 576px) {
   .label {
     margin: 10px auto 10px auto;
   }
