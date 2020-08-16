@@ -74,6 +74,7 @@ function edit(edt) {
 
 
 function deleteAll() {
+  ref.remove(); 
   ulid.innerHTML = " ";
 }
 
